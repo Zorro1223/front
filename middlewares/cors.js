@@ -2,7 +2,7 @@ const allowedCors = [
   "http://localhost:3000",
   "http://localhost:3001",
   "https://pindieback.nomorepartiesco.ru",
-  "http://pindiefront.nomorepartiesco.ru",
+  "https://pindiefront.nomorepartiesco.ru",
 ];
 
 function cors(req, res, next) {
