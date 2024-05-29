@@ -34,7 +34,11 @@
   "developer": "IDKWIAm",
   "image": "https://code.s3.yandex.net/teens/pindie-games/gunner/cover.png",
   "link": "https://code.s3.yandex.net/teens/pindie-games/gunner/game/index.html",
-  "users": [],
+  "users": [
+    {
+      "$oid": "664ce9348300234d7e00fc79"
+    }
+  ],
   "categories": [
     {
       "$oid": "65fd4ae18dfd769ce313327d"
@@ -170,7 +174,11 @@
   "developer": "niclan",
   "image": "https://code.s3.yandex.net/teens/pindie-games/square-slayer/cover.png",
   "link": "https://code.s3.yandex.net/teens/pindie-games/square-slayer/game/index.html",
-  "users": [],
+  "users": [
+    {
+      "$oid": "6606b19ef99cd7a67132aaf6"
+    }
+  ],
   "categories": [
     {
       "$oid": "65fd4ae18dfd769ce313327d"
