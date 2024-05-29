@@ -16,7 +16,7 @@ const hashPassword = async (req, res, next) => {
 
 const findAllUsers = async (req, res, next) => {
   console.log("GET /users");
-  req.usersArray = await users.find({});
+  req.usersArray = await users.find({}, { password: 0 });
   next();
 };
 

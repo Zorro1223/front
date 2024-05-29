@@ -29,7 +29,9 @@ const checkIsCategoryExists = async (req, res, next) => {
     return req.body.name === category.name;
   });
   if (isInArray) {
-    res.status(400).send({ message: "Категория с таким названием уже существует" });
+    res
+      .status(400)
+      .send({ message: "Категория с таким названием уже существует" });
   } else {
     next();
   }

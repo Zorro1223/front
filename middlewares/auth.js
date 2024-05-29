@@ -10,9 +10,7 @@ const checkAuth = (req, res, next) => {
   const token = authorization.replace("Bearer ", "");
 
   try {
-    const test = jwt.verify(token, "some-secret-key");
-    console.log(test);
-    req.user = test;
+    req.user = jwt.verify(token, "some-secret-key");
   } catch (err) {
     return res.status(401).send({ message: "Необходима авторизация" });
   }
